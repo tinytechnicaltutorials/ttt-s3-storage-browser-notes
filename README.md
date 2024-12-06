@@ -1,6 +1,6 @@
 # AWS Project - S3 Storage Browser
 
-This repo contains the code snippets used in this [YouTube video](www.youtube.com).  The video is based loosely on this [AWS Blog](https://aws.amazon.com/blogs/aws/connect-users-to-data-through-your-apps-with-storage-browser-for-amazon-s3).
+This repo contains the code snippets used in this [YouTube video](https://youtu.be/UwnuPgNnmUg ).  The video is based loosely on this [AWS Blog](https://aws.amazon.com/blogs/aws/connect-users-to-data-through-your-apps-with-storage-browser-for-amazon-s3).
 
 ## TL;DR
 Storage Browser for S3 is an AWS Amplify UI React component that allows external users to access your data stored in S3.  This video walks through how to set up a new Next.js App Router Amplify project (using the [Quickstart guide](https://docs.amplify.aws/nextjs/start/quickstart/nextjs-app-router-client-components/
@@ -15,7 +15,7 @@ npm i @aws-amplify/ui-react-storage aws-amplify
 ## Authenticator code, in app\page.tsx
 At the top of the file, add:
 ```
-import { Authenticator } from '@aws-amplify/ui-react’;
+import { Authenticator } from '@aws-amplify/ui-react';
 ```
 
 Update the ```return``` statement
